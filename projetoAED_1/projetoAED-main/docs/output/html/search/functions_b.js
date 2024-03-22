@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['saveprocessedrequests_0',['saveProcessedRequests',['../class_all_requests.html#aa55854b49a71808d256972e622cef195',1,'AllRequests']]],
+  ['scheduleconflict_1',['scheduleConflict',['../class_schedule_slot.html#a9eae16915fa9927379cdfaff8b05cfb9',1,'ScheduleSlot']]],
+  ['scheduleslot_2',['scheduleslot',['../class_schedule_slot.html#a2eac96919ab780a47051a36f97a2b1e9',1,'ScheduleSlot::ScheduleSlot()'],['../class_schedule_slot.html#af578361801640abdd18a981b606aa34f',1,'ScheduleSlot::ScheduleSlot(const ScheduleSlot &amp;schedule_slot)'],['../class_schedule_slot.html#aae934935f229da3f37813e41c525c13e',1,'ScheduleSlot::ScheduleSlot(const string &amp;week_day, const string &amp;type, const float &amp;begin, const float &amp;duration)']]],
+  ['setbegin_3',['setBegin',['../class_schedule_slot.html#ab83f67716c00703187fa7b77a6977ae6',1,'ScheduleSlot']]],
+  ['setcode_4',['setCode',['../class_student.html#acd70296d8de405318734d0f826cfa184',1,'Student']]],
+  ['setend_5',['setEnd',['../class_schedule_slot.html#a60a8403ed0543edf93e9d926d86a64a6',1,'ScheduleSlot']]],
+  ['setname_6',['setName',['../class_student.html#a30d66913d32ac08f39bebc4bb48c5bc5',1,'Student']]],
+  ['setnewturma_7',['setNewTurma',['../class_request.html#ad0120458390aea96cd6f965f44b8e3ce',1,'Request']]],
+  ['setoldturma_8',['setOldTurma',['../class_request.html#a9063b6f9234540dce1729142a6cfba56',1,'Request']]],
+  ['setschedule_9',['setSchedule',['../class_all_turmas.html#a10dcc893df149ad57f0e7af818af7f9e',1,'AllTurmas']]],
+  ['setstudentcode_10',['setStudentCode',['../class_request.html#a8b82bb8031b2659a21165c4f1e19e12e',1,'Request']]],
+  ['settype_11',['setType',['../class_schedule_slot.html#af07cecfff9e757f7c904f18d4a2e98bd',1,'ScheduleSlot']]],
+  ['setuc_12',['setUc',['../class_request.html#a988a472b3d3b8b34fcc4b897b89d45f7',1,'Request']]],
+  ['setucclasses_13',['setUcClasses',['../class_student.html#a530275a8f72416e76dc196972e27258c',1,'Student']]],
+  ['setweekday_14',['setWeekDay',['../class_schedule_slot.html#af77f934c08af8724d9806118436a91bf',1,'ScheduleSlot']]],
+  ['sortbyuc_15',['sortByUC',['../class_all_turmas.html#ad078dc8b201d9bb7ee060b3669fc76e7',1,'AllTurmas']]],
+  ['sortbyucuc_16',['sortByUCUC',['../class_all_turmas.html#aff82275ff548b6ebc5f7890409df84e0',1,'AllTurmas']]],
+  ['sortbyvalue_17',['sortbyvalue',['../class_all_turmas.html#ab9f7faf6eae43804bd2fcf090a869865',1,'AllTurmas::sortByValue()'],['../class_all_students.html#a958382a7ca55cd6a18a60516e777eb57',1,'AllStudents::sortByValue()']]],
+  ['sortbyvalueuc_18',['sortByValueUC',['../class_all_turmas.html#a4196017906ef7c3b9368e549a927a9e7',1,'AllTurmas']]],
+  ['sortbyyear_19',['sortByYear',['../class_all_students.html#ae997780949e58ca0458aca83e333d990',1,'AllStudents']]],
+  ['sorthorario_20',['sortHorario',['../class_turma.html#a5e8e5b71f2bae97b4a0d084e371cb37d',1,'Turma']]],
+  ['sortstudents_21',['sortStudents',['../class_turma.html#a0300186c615a390002f1654dcb5f5ac8',1,'Turma']]],
+  ['student_22',['student',['../class_student.html#af9168cedbfa5565cf0b20c1a9d3f5c9d',1,'Student::Student()'],['../class_student.html#afa8929272884263d8253de29b1041709',1,'Student::Student(Student const &amp;student)'],['../class_student.html#a9ed05ee40fb6718698671415495e01aa',1,'Student::Student(const string &amp;name, const string &amp;student_code, const vector&lt; pair&lt; string, string &gt; &gt; &amp;uc_classes)']]],
+  ['studentsinnucs_23',['studentsInNUcs',['../class_all_students.html#a8b9769dafb38eb9447139d04e3fbcc1b',1,'AllStudents']]]
+];

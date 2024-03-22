@@ -1,0 +1,52 @@
+Things we need to do in this project:
+1. We need to load all the information given into a graph structure, creating one or more graphs; ✅
+2. We need to create a user-friendly menu, with all displaying the features we have implemented and their corresponding outputs in a clear, organized, and logical manner (maybe we can use an updated version of the last project's menu);✅
+3. Calculate and list statistics of the network, including existing airports and connections:
+  3.1-> Global number of airports and number of available flights;✅
+       Airport::total;
+  3.2-> Number of flights out of an airport; and from how many different airlines; ✅
+       vertex->adj.size(); edge.airline
+  3.3-> Number of flights per city/airline; ✅ "Apenas aos voos que saem da cidade."
+       airport.city; edge.airline
+  3.4-> Number of different countries that a given airport/city flies to; ✅
+       for vertex->adj, edge.dest;
+  3.5-> Number of destinations (airports, cities or countries) available for a given airport; ✅
+  3.6-> Number of reachable destinations (airports, cities or countries) from a given airport in a ✅
+        maximum number of X stops (lay-overs);
+        A NOSSA FUNÇÃO ESTÁ A CONSIDERAR MAIS 1 STOP DO QUE É SUPOSTO ACHO EU | ACHO QUE CORRIGI ✅
+  3.7-> Maximum trip and corresponding pair of source-destination airports (or pairs, if more than ✅
+        one), that is, the flight trip(s) with the greatest number of stops in between them;
+  3.8-> Identify the top-k airport with the greatest air traffic capacity, that is, with the greatest number ✅
+        of flights;
+  3.9-> Identify the airports that are essential to the network’s circulation capability (airports are ✅
+        essential if, when removed, areas of the network start to be unreachable).
+        VER A ROOT E AS CHILDREN NO ALGORITMO | ACHO QUE ESTA VISTO ✅
+
+PERGUNTAR SE O TAMANHO DOS .CSV VAI MUDAR, POR CAUSA DAS HASH TABLES E DE COMPLEXIDADES DE ALGUNS ALGORITMOS | JÁ ESTÁ RESOLVIDO ✅
+
+4. e 5. Present the best flight option (or the set of options if they are equivalent) for a given source and destination locations.
+The best flight option is considered to be the one with the least amount of stops;
+    -> Locations may be specified by the user (inputs) using different criteria:
+      -> Airport code or name; ✅
+      -> City name, encapsulating all the airports departing from a given city; ✅
+      -> Geographical coordinates, considering the closest airport to the given coordinates. If there is more than one,
+      consider all the closest ones. ✅
+    IMPORTANTE!!!!
+    ->The user may also wish to use combinations of these, that is, the system must allow the user to
+      consider different criteria, for example, requesting a flight option from an airport to a city, or from a
+      city to a location, or other possible combinations. If you wish to use distances in your program, make
+      use of the Haversine Distance Function (Haversine Formula / implementation example). ✅
+
+    -> Create search with filters (that is, using only a subset of nodes/edges of the network) that respect user preferences:
+       -> Users may wish to travel using only 1, or a set of given airlines. ✅
+       -> Minimize the number of airlines in their travel. ✅
+
+6. Create a Doxygen file with the time complexity of the most relevant functions or algorithms in our program;
+
+IMPORTANTE!!!!
+We need to implement in our code the following techniques/methods:
+-> DFS;
+-> BFS;
+-> Connected Components;
+-> Articulation Points;
+-> etc;
